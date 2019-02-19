@@ -1,0 +1,25 @@
+{
+    "houses": [
+        {
+            "name": "Gryffindor",
+            "points": 0,
+            "colors": ["#ae0001", "#d3a625", "black"],
+            "houseMembers": ["Danny", "Abhi", "Emily", "Montego", "Ibrahim"]
+        },{
+            "name": "Hufflepuff",
+            "points": 0,
+            "colors": ["#ecb939", "#372e29", "white"],
+            "houseMembers": ["Stephanie", "Amy", "Kyle", "Veronica", "Javier"]
+        },{
+            "name": "Ravenclaw",
+            "points": 0,
+            "colors": ["#222f5b", "#946b2d", "black"],
+            "houseMembers": ["Jessie", "Tiffany", "Christian", "Bill"]
+        },{
+            "name": "Slytherin",
+            "points": 0,
+            "colors": ["#1a472a", "black", "white"],
+            "houseMembers": ["Lara", "Waylon", "Sunny", "Maddie", "Stuart"]
+        }
+    ]
+}
