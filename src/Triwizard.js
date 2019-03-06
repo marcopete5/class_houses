@@ -138,7 +138,7 @@ class Triwizard extends Component {
                     <button>Place Name in Goblet</button>
                 </form>
                 <form onSubmit={(e) => this.handleSubmit(e, 'jan2')}>
-                    <h1>January Dumb Cohort</h1>
+                    <h1>Jan 2 Cohort (Nate)</h1>
                     <input type="text" placeholder="Enter Name" name='jan2Name' value={this.state.jan2Name} onChange={this.handleChange} />
                     <button>Place Name in Goblet</button>
                 </form>
