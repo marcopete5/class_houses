@@ -3,6 +3,158 @@
     src: url("./fonts/HARRYP__.TTF")
 }
 
+#goblet {
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 22%;
+    left: 15px;
+}
+
+.flame1 {
+    height: 530px;
+    width: 270px;
+    margin: auto;
+    display: block;
+    bottom: 240px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -340px;
+    background-size: cover;
+    background-image: url(https://i.gifer.com/ODkF.gif);
+    right: 14px;
+    transition: .7s all ease-in;
+    background-repeat: no-repeat;
+}
+
+.flame2 {
+    background-image: url('https://i.gifer.com/5Mz4.gif');
+    transform: scale(1.5);
+    bottom: 310px;
+}
+
+
+.gif{
+    position: relative;
+    z-index: -1;
+}
+
+.rules {
+    width: 20%;
+    color: black;
+    position: absolute;
+    top: 300px;
+    right: 130px;
+    background-color: white;
+    height: 400px;
+    padding: 30px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.rules > h1 {
+    text-align: center;
+    font-family: harryPotter;
+    font-size: 50px;
+}
+
+.rules > li {
+    margin: 10px 0px;
+    list-style-type: none;
+    font-size: 23px;
+    font-family: harryPotter;
+}
+
+#firstRule {
+    list-style-type: none;
+    font-size: 35px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+
+.select {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    bottom: 430px;
+    background-color: #ffffff00;
+    display: block;
+}
+
+.select > h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    background-color: #00000047;
+    width: 90%;
+    padding: 20px 0px;
+    margin-left: 13px;
+}
+
+.video-dumbledore {
+    visibility: visible;
+    display: block;
+    width: 40%;
+    left: 31%;
+    position: absolute;
+    top: 200px;
+}
+
+.no-dumbledore {
+    display:none;
+    visibility: hidden;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+form > h1 {
+    color: white;
+    text-shadow: 1px 2px 0px black;
+    position: relative;
+    bottom: 13px;
+    margin: auto;
+    letter-spacing: 2px;
+    font-size: 26px;
+    padding: 10px 90px;
+    background-color: #000000ad;
+}
+form {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 40px 40px 30px;
+    grid-gap: 5px;
+    margin-bottom: -50px;
+    font-family: harryPotter;
+}
+
+form > input {
+    border-radius: 6px;
+    border: 1px solid #9a909078;
+    background-color: #181818 !important;
+    font-size: 25px;
+    text-align: center;
+    color: #f1feef;
+    font-family: harryPotter, sans-serif;
+}
+
+.header {
+    padding: 25px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+    font-family: harryPotter;
+}
+
+.header > a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     background-color: black;
 }

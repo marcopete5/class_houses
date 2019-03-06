@@ -74,18 +74,19 @@ class Houses extends Component {
     
     render() {
         const houses = housesArr.houses.map(house => {
+            var points;
         switch (house.name){
             case "Gryffindor":
-                var points = this.state.gPoints;
+                points = this.state.gPoints;
                 break;
             case "Hufflepuff":
-                var points = this.state.hPoints;
+                points = this.state.hPoints;
                 break;
             case "Ravenclaw":
-                var points = this.state.rPoints;
+                points = this.state.rPoints;
                 break;
             case "Slytherin":
-                var points = this.state.sPoints;
+                points = this.state.sPoints;
                 break;
             default: 
                 break;

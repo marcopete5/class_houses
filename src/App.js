@@ -1,16 +1,22 @@
 import React from 'react';
 import './App.css'
 
-import HamburgerMenu from './HamburgerMenu'
-import Houses from './Houses'
-import Title from './Title'
+import Main from './Main';
+import Header from './Header';
+import Triwizard from './Triwizard';
+
+import { Switch, Route } from 'react-router-dom';
+
 
 const App = () => {
     return (
-        <div className='book'>
-            <Houses />
-            <HamburgerMenu />
-            <Title />
+        <div>
+        <Header />
+        
+        <Switch>
+            <Route exact path='/' component={Main} />
+            <Route path='/triwizard' component={Triwizard} />
+        </Switch>   
         </div>
     );
 };
